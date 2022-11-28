@@ -44,7 +44,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="h-min text-center mt-10 flex flex-row justify-center gap-8">
+      <div className="h-min text-center mt-10 grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-8 mx-auto">
         <Card title="Advocacy" image={"/imgs/pigs/brody-sunflower.webp"} />
         <Card title="Rehabilitation" image={"/imgs/pigs/look-up.webp"} />
         <Card title="Rescue" image={"/imgs/pigs/pearls-2.webp"} />
