@@ -38,16 +38,22 @@ export default function Home() {
           </p>
         </div>
         <Image
-          src={"/imgs/pigs/brody-sunflower-3.webp"}
+          src={"/imgs/pigs/portrait/brody-sunflower-3.webp"}
           width={600}
           height={500}
         />
       </div>
 
       <div className="h-min text-center mt-10 grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-8 mx-auto">
-        <Card title="Advocacy" image={"/imgs/pigs/brody-sunflower.webp"} />
-        <Card title="Rehabilitation" image={"/imgs/pigs/look-up.webp"} />
-        <Card title="Rescue" image={"/imgs/pigs/pearls-2.webp"} />
+        <Card
+          title="Advocacy"
+          image={"/imgs/pigs/landscape/brody-sunflower.webp"}
+        />
+        <Card
+          title="Rehabilitation"
+          image={"/imgs/pigs/landscape/look-up.webp"}
+        />
+        <Card title="Rescue" image={"/imgs/pigs/landscape/pearls-2.webp"} />
       </div>
 
       <div className="h-60 text-center flex flex-col justify-around">
