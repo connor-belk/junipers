@@ -20,7 +20,7 @@ const PhotoSlider = ({ slides }) => {
   }
 
   return (
-    <div id="gallery" className="max-w-4xl mx-auto my-8">
+    <div id="gallery" className="max-w-4xl mx-auto my-8 h-[600px]">
       <div className="relative flex justify-center p-4">
         {photoImages.map((slide, index) => {
           return (
